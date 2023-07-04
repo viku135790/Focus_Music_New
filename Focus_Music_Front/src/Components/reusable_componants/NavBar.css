@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.nav-main-conta{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: black;
+    color: white;
+    align-items: center;   
+}
+
+
+.comp-logo{
+    display: flex;
+    flex: .2;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/src/images/logo-main.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 1rem;
+    cursor: pointer;
+    height: 60%;
+}
+
+.option-item{
+    display: flex;
+    flex: .6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-nav{
+    display: flex;
+    flex: 0.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.facebook-icon {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .instagram-icon {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .youtube-icon {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .twitter-icon {
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    cursor: pointer;
+  }
+
+  .facebook-icon:hover {
+    color: rgb(0, 75, 251);
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .instagram-icon:hover {
+    color: rgb(255, 46, 255);
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .youtube-icon:hover {
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .twitter-icon:hover {
+    color: aqua;
+    font-size: 21px;
+    cursor: pointer;
+  }
+
+
+
+.option-item ul{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    font-size: 18px;
+    height: 100%;
+    
+}
+
+.option-item ul li{
+    display: inline;
+    cursor: pointer;
+    
+}
+
+.option-item ul li:hover{
+    color: red;
+}
+.menu-icon{
+    display: none;
+}
+
+
+@media (min-width: 350px) and (max-width: 768px) {
+    .menu-icon{
+        display: block;
+    }
+
+    .icon-nav{
+        display: none;
+    }
+
+    .option-item{
+        position: absolute;
+        height: auto;
+        width: 100%;
+        right: 0%;
+        background-color: black;
+        transform: translateX(100%);
+    }
+
+    .option-item-open{
+        position: absolute;
+        height: auto;
+        top: 5rem;
+        width: 100%;
+        right: 0%;
+        background-color: black;
+        transform: translateX(0%);
+        transition: all 0.5s ease-in-out;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .option-item-open ul{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .option-item-open ul li{
+        text-decoration: none;
+        border-bottom: 1px solid gray;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 2rem;
+    }
+
+    .option-item-open ul li:hover{
+        color: red;
+    }
+ 
+   
+}
+
+.nav-navlink-route{
+    color: white;
+    
+}

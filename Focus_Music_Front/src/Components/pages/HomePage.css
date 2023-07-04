@@ -1,0 +1,6 @@
+.home-page-main-conta{
+    border: 2px solid red;
+    min-height: 795px;
+    display: flex;
+    flex-direction: column;
+}

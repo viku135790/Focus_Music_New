@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.header-home-cotain {
+    display: flex;
+    min-height: 600px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 2px solid red;
+}
+
+.header-sidebar {
+    height: 600px;
+    min-width: 16%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+    justify-content: flex-start;
+}
+
+
+.sidebar-content-main {
+    height: auto;
+    width: auto;
+
+}
+
+.sidebar-content-main ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+
+}
+
+.sidebar-head {
+    color: gray;
+    font-weight: bold;
+}
+
+.other-option:hover {
+    cursor: pointer;
+    width: auto;
+    color: rgb(255, 0, 0);
+}
+
+.playlist-btn {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.playlist-btn button {
+    height: 40px;
+    width: 100%;
+    font-size: 22px;
+    border-radius: 20px;
+    border: none;
+    padding: 2px;
+    background-color: rgb(227, 227, 227);
+    cursor: pointer;
+
+}
+
+.playlist-btn button:hover {
+    background-color: white;
+}
+
+
+
+
+
+
+/*Second continer*/
+.header-landing {
+    display: flex;
+    width: 84%;
+    height: 600px;
+    align-items: flex-start;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+/* Customizing the scrollbar for Chrome, Edge, and Safari */
+.header-landing::-webkit-scrollbar {
+    width: 6px;
+}
+
+.header-landing::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.header-landing::-webkit-scrollbar-track {
+    background-color: transparent;
+}

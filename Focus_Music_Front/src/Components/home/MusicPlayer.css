@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.musicplayer-main-conta{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.progress-bar-music{
+    width: 98%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-bar-music input{
+    width: 100%;
+    height: .2rem;
+}
+
+
+
+.complete-music-item{
+    width: 98%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.music-name-title{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+}
+
+.music-nav-btns{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.play-pause-ms{
+    font-size: 37px;
+    background-image: linear-gradient(65deg, aqua, blue);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Activate-Loop{
+    color: rgb(0, 255, 0);
+}
+
+.prev-btn{
+    background-image: linear-gradient(65deg, aqua, blue);
+    border-radius: 50%;
+}
+
+.Deactivate-Loop{
+    color: white;
+}
+
+.Activate-Shuffle{
+    color: rgb(0, 255, 0);
+}
+.Deactivate-Shuffle{
+    color: white;
+}
+
+.speaker-more-info{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.speaker-more-info input{
+    height: .2rem;
+}

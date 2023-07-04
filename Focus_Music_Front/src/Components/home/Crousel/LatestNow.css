@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  
+  h2 {
+    margin: .1rem auto 1rem;
+  }
+
+  .let-carousel-App{
+    padding-bottom: 1rem;
+  }
+  
+  .let-product--image {
+    width: 60%;
+    height: 6em;
+    object-fit: fit;
+  }
+  
+  .let-card {
+    padding: .5rem;
+    max-width: 320px;
+    margin: auto 1rem;
+    text-align: center;
+    font-family: arial;
+    background-color: white;
+    color: black;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .let-price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .let-card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .let-card button:hover {
+    opacity: 0.7;
+  }
+
+  .let-play-pause-ms-tranding-Music{
+    background-image: linear-gradient(65deg ,aqua, blue);
+    border-radius: 50%;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
